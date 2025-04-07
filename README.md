@@ -6,14 +6,14 @@ A Telegram bot written in Python using the **aiogram** library that provides wea
 
 ## 🚀 Features
 
-- `/start` command — starts a dialogue
-- `/help` command — shows a list of available commands
-- Send a city name — get the current weather with temperature, humidity, wind, and sunrise/sunset times
+- `/start` command — starts a dialogue and shows a welcome message with instructions.
+- `/help` command — shows a list of available commands.
+- Send a city name — get the current weather, including temperature, humidity, pressure, wind speed, and sunrise/sunset times.
 
 ## 🛠️ Technologies Used
 
 - Python 3.10+
-- [aiogram](https://docs.aiogram.dev/en/latest/)
+- [aiogram](https://docs.aiogram.dev/en/latest/) (3.x version)
 - OpenWeatherMap API
 
 ## 📦 Installation
@@ -23,4 +23,3 @@ A Telegram bot written in Python using the **aiogram** library that provides wea
 ```bash
 git clone https://github.com/username/weather_bot.git
 cd weather_bot
-
